@@ -43,34 +43,34 @@ function Application(props) {
                                         aria-label="Toggle navigation">Features</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a href="" aria-label="Toggle navigation">Overview</a>
+                                    <a href="#overview" aria-label="Toggle navigation">Overview</a>
                                 </li>
                                 <li className="nav-item">
                                     <a href="#pricing" className="page-scroll"
                                         aria-label="Toggle navigation">Pricing</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a href="" aria-label="Toggle navigation">Team</a>
+                                    <a href="#team" aria-label="Toggle navigation">Team</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="dd-menu collapsed" href="" data-bs-toggle="collapse"
+                                    <a className="dd-menu collapsed" href="/#" onClick={(e) => e.preventDefault()} data-bs-toggle="collapse"
                                         data-bs-target="#submenu-1-4" aria-controls="navbarSupportedContent"
                                         aria-expanded="false" aria-label="Toggle navigation">Blog</a>
                                     <ul className="sub-menu collapse" id="submenu-1-4">
-                                        <li className="nav-item"><a href="">Blog Grid Sidebar</a>
+                                        <li className="nav-item"><a href="/#" onClick={(e) => e.preventDefault()}>Blog Grid Sidebar</a>
                                         </li>
-                                        <li className="nav-item"><a href="">Blog Single</a></li>
-                                        <li className="nav-item"><a href="">Blog Single
+                                        <li className="nav-item"><a href="/#" onClick={(e) => e.preventDefault()}>Blog Single</a></li>
+                                        <li className="nav-item"><a href="/#" onClick={(e) => e.preventDefault()}>Blog Single
                                                 Sibebar</a></li>
                                     </ul>
                                 </li>
                                 <li className="nav-item">
-                                    <a href="" aria-label="Toggle navigation">Contact</a>
+                                    <a href="/#" onClick={(e) => e.preventDefault()} aria-label="Toggle navigation">Contact</a>
                                 </li>
                             </ul>
                         </div> 
                         <div className="button add-list-button">
-                            <a href="" className="btn">Get it now</a>
+                            <a href="/#" onClick={(e) => e.preventDefault()} className="btn">Get it now</a>
                         </div>
                     </nav>
                    
@@ -89,8 +89,8 @@ function Application(props) {
                     <p className="wow fadeInLeft" data-wow-delay=".6s">From open source to pro services, Piqes helps you
                         to build, deploy, test, and monitor apps.</p>
                     <div className="button wow fadeInLeft" data-wow-delay=".8s">
-                        <a href="" className="btn"><i className="lni lni-apple"></i> App Store</a>
-                        <a href="" className="btn btn-alt"><i className="lni lni-play-store"></i> Google
+                        <a href="/#" onClick={(e) => e.preventDefault()} className="btn"><i className="lni lni-apple"></i> App Store</a>
+                        <a href="/#" onClick={(e) => e.preventDefault()} className="btn btn-alt"><i className="lni lni-play-store"></i> Google
                             Play</a>
                     </div>
                 </div>
@@ -243,7 +243,7 @@ function Application(props) {
                             <h2 className="amount">$12<span className="duration">/mo</span></h2>
                         </div>
                         <div className="button">
-                            <a href="" className="btn">Buy Hobby</a>
+                            <a href="/#" onClick={(e) => e.preventDefault()} className="btn">Buy Hobby</a>
                         </div>
                     </div>
                   
@@ -273,7 +273,7 @@ function Application(props) {
                             <h2 className="amount">$24<span className="duration">/mo</span></h2>
                         </div>
                         <div className="button">
-                            <a href="" className="btn">Buy Freelancer</a>
+                            <a href="/#" onClick={(e) => e.preventDefault()} className="btn">Buy Freelancer</a>
                         </div>
                     </div>
                     
@@ -303,7 +303,7 @@ function Application(props) {
                             <h2 className="amount">$32<span className="duration">/mo</span></h2>
                         </div>
                         <div className="button">
-                            <a href="" className="btn">Buy Startup</a>
+                            <a href="/#" onClick={(e) => e.preventDefault()} className="btn">Buy Startup</a>
                         </div>
                     </div>
                    
@@ -333,7 +333,7 @@ function Application(props) {
                             <h2 className="amount">$48<span className="duration">/mo</span></h2>
                         </div>
                         <div className="button">
-                            <a href="" className="btn">Buy Enterprise</a>
+                            <a href="/#" onClick={(e) => e.preventDefault()} className="btn">Buy Enterprise</a>
                         </div>
                     </div>
                    
@@ -366,7 +366,7 @@ function Application(props) {
                     <p className="wow fadeInUp" data-wow-delay=".4s">Please, purchase full version of the template to
                         get all pages, features and commercial license.</p>
                     <div className="button wow fadeInUp" data-wow-delay=".6s">
-                        <a href="" className="btn">Purchase Now</a>
+                        <a href="/#" onClick={(e) => e.preventDefault()} className="btn">Purchase Now</a>
                     </div>
                 </div>
             </div>
@@ -389,15 +389,15 @@ function Application(props) {
                         </div>
                         <p>Making the world a better place through constructing elegant hierarchies.</p>
                         <ul className="social">
-                            <li><a href=""><i className="lni lni-facebook-filled"></i></a></li>
-                            <li><a href=""><i className="lni lni-twitter-original"></i></a></li>
-                            <li><a href=""><i className="lni lni-instagram"></i></a></li>
-                            <li><a href=""><i className="lni lni-linkedin-original"></i></a></li>
-                            <li><a href=""><i className="lni lni-youtube"></i></a></li>
-                            <li><a href=""><i className="lni lni-pinterest"></i></a></li>
+                            <li><a href="/#" onClick={(e) => e.preventDefault()}><i className="lni lni-facebook-filled"></i></a></li>
+                            <li><a href="/#" onClick={(e) => e.preventDefault()}><i className="lni lni-twitter-original"></i></a></li>
+                            <li><a href="/#" onClick={(e) => e.preventDefault()}><i className="lni lni-instagram"></i></a></li>
+                            <li><a href="/#" onClick={(e) => e.preventDefault()}><i className="lni lni-linkedin-original"></i></a></li>
+                            <li><a href="/#" onClick={(e) => e.preventDefault()}><i className="lni lni-youtube"></i></a></li>
+                            <li><a href="/#" onClick={(e) => e.preventDefault()}><i className="lni lni-pinterest"></i></a></li>
                         </ul>
                         <p className="copyright-text">Designed and Developed by <a href="https://uideck.com/"
-                                rel="nofollow" target="_blank">UIdeck</a>
+                                rel="noreferrer"  target="_blank">UIdeck</a>
                         </p>
                     </div>
                    
@@ -409,11 +409,11 @@ function Application(props) {
                             <div className="single-footer f-link">
                                 <h3>Solutions</h3>
                                 <ul>
-                                    <li><a href="">Marketing</a></li>
-                                    <li><a href="">Analytics</a></li>
-                                    <li><a href="">Commerce</a></li>
-                                    <li><a href="">Insights</a></li>
-                                    <li><a href="">Promotion</a></li>
+                                    <li><a href="/#" onClick={(e) => e.preventDefault()}>Marketing</a></li>
+                                    <li><a href="/#" onClick={(e) => e.preventDefault()}>Analytics</a></li>
+                                    <li><a href="/#" onClick={(e) => e.preventDefault()}>Commerce</a></li>
+                                    <li><a href="/#" onClick={(e) => e.preventDefault()}>Insights</a></li>
+                                    <li><a href="/#" onClick={(e) => e.preventDefault()}>Promotion</a></li>
                                 </ul>
                             </div>
                            
@@ -423,11 +423,11 @@ function Application(props) {
                             <div className="single-footer f-link">
                                 <h3>Support</h3>
                                 <ul>
-                                    <li><a href="">Pricing</a></li>
-                                    <li><a href="">Documentation</a></li>
-                                    <li><a href="">Guides</a></li>
-                                    <li><a href="">API Status</a></li>
-                                    <li><a href="">Live Support</a></li>
+                                    <li><a href="/#" onClick={(e) => e.preventDefault()}>Pricing</a></li>
+                                    <li><a href="/#" onClick={(e) => e.preventDefault()}>Documentation</a></li>
+                                    <li><a href="/#" onClick={(e) => e.preventDefault()}>Guides</a></li>
+                                    <li><a href="/#" onClick={(e) => e.preventDefault()}>API Status</a></li>
+                                    <li><a href="/#" onClick={(e) => e.preventDefault()}>Live Support</a></li>
                                 </ul>
                             </div>
                           
@@ -437,11 +437,11 @@ function Application(props) {
                             <div className="single-footer f-link">
                                 <h3>Company</h3>
                                 <ul>
-                                    <li><a href="">About Us</a></li>
-                                    <li><a href="">Our Blog</a></li>
-                                    <li><a href="">Jobs</a></li>
-                                    <li><a href="">Press</a></li>
-                                    <li><a href="">Contact Us</a></li>
+                                    <li><a href="/#" onClick={(e) => e.preventDefault()}>About Us</a></li>
+                                    <li><a href="/#" onClick={(e) => e.preventDefault()}>Our Blog</a></li>
+                                    <li><a href="/#" onClick={(e) => e.preventDefault()}>Jobs</a></li>
+                                    <li><a href="/#" onClick={(e) => e.preventDefault()}>Press</a></li>
+                                    <li><a href="/#" onClick={(e) => e.preventDefault()}>Contact Us</a></li>
                                 </ul>
                             </div>
                           
@@ -451,11 +451,11 @@ function Application(props) {
                             <div className="single-footer f-link">
                                 <h3>Legal</h3>
                                 <ul>
-                                    <li><a href="">Terms Conditions</a></li>
-                                    <li><a href="">Privacy Policy</a></li>
-                                    <li><a href="">Catering Services</a></li>
-                                    <li><a href="">Customer Relations</a></li>
-                                    <li><a href="">Innovation</a></li>
+                                    <li><a href="/#" onClick={(e) => e.preventDefault()}>Terms Conditions</a></li>
+                                    <li><a href="/#" onClick={(e) => e.preventDefault()}>Privacy Policy</a></li>
+                                    <li><a href="/#" onClick={(e) => e.preventDefault()}>Catering Services</a></li>
+                                    <li><a href="/#" onClick={(e) => e.preventDefault()}>Customer Relations</a></li>
+                                    <li><a href="/#" onClick={(e) => e.preventDefault()}>Innovation</a></li>
                                 </ul>
                             </div>
                            
@@ -468,7 +468,7 @@ function Application(props) {
 
 </footer>
 
-<a href="#" className="scroll-top">
+<a href="/#" onClick={(e) => e.preventDefault()} className="scroll-top">
     <i className="lni lni-chevron-up"></i>
 </a>
                      
