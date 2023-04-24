@@ -468,7 +468,7 @@ function Application(props) {
 
 </footer>
 
-<a href="/#" onClick={(e) => e.preventDefault()} className="scroll-top">
+<a href="/#" className="scroll-top">
     <i className="lni lni-chevron-up"></i>
 </a>
                      

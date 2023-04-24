@@ -1519,7 +1519,7 @@ ol {
   }
   .header .navbar-collapse {
     position: absolute;
-    top: 58px !important;
+    top: 100px !important;
     left: 0;
     width: 100%;
     background-color: #fff;
